@@ -1,6 +1,6 @@
 Therflux Docs
 =============
-This the Python package for creating Therflux docs. It is forked from [`JuliaDoc`](https://github.com/JuliaLang/JuliaDoc) repository. It is a slightly modified version of the JuliaDoc.
+This the Python package for creating therflux docs. It is forked from [`JuliaDoc`](https://github.com/JuliaLang/JuliaDoc) repository. It is a slightly modified version of the JuliaDoc.
 
 License
 -------
