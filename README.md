@@ -1,26 +1,6 @@
-JuliaDoc
-========
-JuliaDoc is a Python package providing Sphinx extensions and a theme for the Julia language documentation at https://julia.readthedocs.org/. It can also be used by Julia packages to create documentation that is visually unified with the language documentation.
-
-Usage with ReadTheDocs
-----------------------
-In the ReadTheDocs admin page for your package's documentation:
-
-1. Turn on the "Use virtualenv" option.
-
-1. Under "Requirements file", enter `doc/requirements.txt`.
-
-1. Add [this `requirements.txt` file](https://gist.github.com/pao/5658342/raw/requirements.txt) to your package repository's `doc` folder. This will tell ReadTheDocs where to find the JuliaDoc theme and extensions.
-
-1. In your `doc.conf.py` file, do at least the following:
-
-```Python
-import juliadoc
-
-extensions = ['juliadoc.julia', 'juliadoc.jlhelp']
-html_theme_path = [juliadoc.get_theme_dir()]
-html_sidebars = juliadoc.default_sidebars()
-```
+Therflux Docs
+=============
+This the Python package for creating Therflux docs. It is forked from [`JuliaDoc`](https://github.com/JuliaLang/JuliaDoc) repository. It is a slightly modified version of the JuliaDoc.
 
 License
 -------
@@ -47,6 +27,3 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-Acknowledgements
-----------------
-The packaging is directly inspired by the [Caktus theme for Sphinx](https://github.com/caktus/caktus-sphinx-theme/).
